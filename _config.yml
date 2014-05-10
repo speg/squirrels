@@ -1,0 +1,11 @@
+blogname: "squirrels!"
+
+sass:
+    style: :compressed
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "post"
