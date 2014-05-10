@@ -3,6 +3,8 @@ blogname: "squirrels!"
 sass:
     style: :compressed
 
+markdown: kramdown
+
 defaults:
   -
     scope:
