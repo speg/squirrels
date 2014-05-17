@@ -4,7 +4,6 @@
 
 html {
 	font-size: 62.5%;
-	margin: 7px;
 }
 
 body *{
@@ -19,6 +18,21 @@ h1 {
 
 footer {
 	position: absolute;
-	bottom: 7px;
-	right: 7px;
+	background-color: #000;
+	color: #FFF;
+	text-align: right;
+	width: 100%;
+	bottom: 0;
+	padding: 7px;
+}
+
+header {
+	background-color: #000;
+	color: #FFF;
+	font-size: 2.6rem;
+	padding: 7px;
+}
+
+header>h1 {
+	margin: 0;
 }
