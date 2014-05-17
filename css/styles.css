@@ -8,6 +8,7 @@ html {
 
 body *{
 	font-size: 1.6rem;
+	margin: 5px;
 }
 
 /*end setup styles*/
@@ -17,13 +18,13 @@ h1 {
 }
 
 footer {
-	position: absolute;
 	background-color: #000;
 	color: #FFF;
 	text-align: right;
 	width: 100%;
-	bottom: 0;
 	padding: 7px;
+	margin: -5px;
+	margin-top: 9px;
 }
 
 header {
@@ -31,8 +32,19 @@ header {
 	color: #FFF;
 	font-size: 2.6rem;
 	padding: 7px;
+	margin: -5px;
+	margin-bottom: 9px;
 }
 
 header>h1 {
 	margin: 0;
+}
+
+#content {
+	margin-left: 20px;
+}
+
+code {
+	background-color: #BBB;
+	padding: 1px;
 }
